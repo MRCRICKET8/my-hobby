@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    image-orientation: center;
+    background: linear-gradient(#cbe622 0%, #22e667 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #16e944;
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 20px;
+    color: blue;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    
+}
+li {
+  display: inline;
+}
+.link:hover{
+    background-color: violet;
+    color: cyan
+}
+html{
+    scroll-behavior: smooth;
+}
+.link{
+    font-size: 20px;
+    padding: 5px;
+        
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+img:hover{
+    transform: scale(0.9);
+}
